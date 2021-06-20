@@ -1,3 +1,15 @@
+# CIMoJIE (Work In Progress)
+
+Character-Iterative Memory based Joint OpenIE
+
+Character-level BERT based OpenIE system, to handle out-of-vocab words 
+
+(currently not implemented!)
+
+
+below is README file of original repository
+
+======
 # IMoJIE
 
 Iterative Memory based Joint OpenIE
