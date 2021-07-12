@@ -155,7 +155,7 @@ class CopySeq2MultiSeqNetDatasetReader(DatasetReader):
 
     @overrides
     def _read(self, file_path):
-        with open(cached_path(file_path), "r") as data_file:
+        with open(cached_path(file_path), "r",encoding='utf-8') as data_file:
             logger.info("Reading instances from lines in file at: %s", file_path)
             target_sequences, confidences = [], []
             lines = data_file.readlines()+['']

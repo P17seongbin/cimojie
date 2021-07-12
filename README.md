@@ -4,10 +4,21 @@ Character-Iterative Memory based Joint OpenIE
 
 Character-level BERT based OpenIE system, to handle out-of-vocab words 
 
+This repo supports dockerfile env build based on Ubuntu 18.04 and PyTorch 1.9
+
+After init docker image via dockerfile, execute below command while root dir is bind-mounted on the docker image:
+
+```
+pip3 install ./allennlp
+pip3 install ./pytorch_transformers
+```
+
 (currently not implemented!)
 
 
 below is README file of original repository
+
+
 
 ======
 # IMoJIE
@@ -19,7 +30,7 @@ A BERT-based OpenIE system that generates extraction using an iterative Seq2Seq 
 ## Installation Instructions
 Use a python-3.6 environment and install the dependencies using,
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt 
 ```
 This will install custom versions of allennlp and pytorch_transformers based on the code in the folder.
 
